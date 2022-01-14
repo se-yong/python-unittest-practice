@@ -17,7 +17,7 @@ class MyCalcTest(unittest.TestCase):
     def test_substarct_error(self):
         c = mycalc.substract(20, 10)
         self.assertEqual(c, 15)
-
+    
 if __name__ == '__main__':
     unittest.main()
 
